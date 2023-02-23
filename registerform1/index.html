@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Register Form</title>
-</head>
-<body>
-    <h1>Hello</h1>
-</body>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="inner">
+        <div class="image-holder">
+          <img src="./boy-pic.jpg" alt="Image" />
+        </div>
+        <form>
+          <h3>registration Form</h3>
+
+          <div class="form-group">
+            <input type="text" placeholder="First Name" class="form-control" />
+            <input type="text" placeholder="Last Name" class="form-control" />
+          </div>
+
+          <div class="form-wrapper">
+            <input type="text" placeholder="Username" class="form-control">
+          </div>
+
+          <div class="form-wrapper">
+            <input type="text" placeholder="Email Address" class="form-control">
+          </div>
+
+          <div class="form-wrapper">
+            <select name="" id="" class="form-control">
+                <option value="" disabled selected>Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-wrapper">
+            <input type="password" placeholder="Password" class="form-control">
+          </div>
+
+          <div class="form-wrapper">
+            <input type="password" placeholder="Confirm Password" class="form-control">
+          </div>
+
+          <button>Register</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
